@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1C10C761A134C0400FA948C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C10C751A134C0400FA948C /* AppDelegate.swift */; };
+		D1C10C781A134C0400FA948C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C10C771A134C0400FA948C /* ViewController.swift */; };
+		D1C10C7B1A134C0400FA948C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C10C791A134C0400FA948C /* Main.storyboard */; };
+		D1C10C7D1A134C0400FA948C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C10C7C1A134C0400FA948C /* Images.xcassets */; };
+		D1C10C801A134C0400FA948C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1C10C7E1A134C0400FA948C /* LaunchScreen.xib */; };
+		D1C10C8C1A134C0400FA948C /* coupePizzaGateauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C10C8B1A134C0400FA948C /* coupePizzaGateauTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1C10C861A134C0400FA948C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1C10C681A134C0300FA948C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C10C6F1A134C0400FA948C;
+			remoteInfo = coupePizzaGateau;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1C10C701A134C0400FA948C /* coupePizzaGateau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coupePizzaGateau.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C10C741A134C0400FA948C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C10C751A134C0400FA948C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1C10C771A134C0400FA948C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1C10C7A1A134C0400FA948C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1C10C7C1A134C0400FA948C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D1C10C7F1A134C0400FA948C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D1C10C851A134C0400FA948C /* coupePizzaGateauTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coupePizzaGateauTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C10C8A1A134C0400FA948C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C10C8B1A134C0400FA948C /* coupePizzaGateauTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coupePizzaGateauTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C10C6D1A134C0400FA948C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C10C821A134C0400FA948C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1C10C671A134C0300FA948C = {
+			isa = PBXGroup;
+			children = (
+				D1C10C721A134C0400FA948C /* coupePizzaGateau */,
+				D1C10C881A134C0400FA948C /* coupePizzaGateauTests */,
+				D1C10C711A134C0400FA948C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1C10C711A134C0400FA948C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1C10C701A134C0400FA948C /* coupePizzaGateau.app */,
+				D1C10C851A134C0400FA948C /* coupePizzaGateauTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1C10C721A134C0400FA948C /* coupePizzaGateau */ = {
+			isa = PBXGroup;
+			children = (
+				D1C10C751A134C0400FA948C /* AppDelegate.swift */,
+				D1C10C771A134C0400FA948C /* ViewController.swift */,
+				D1C10C791A134C0400FA948C /* Main.storyboard */,
+				D1C10C7C1A134C0400FA948C /* Images.xcassets */,
+				D1C10C7E1A134C0400FA948C /* LaunchScreen.xib */,
+				D1C10C731A134C0400FA948C /* Supporting Files */,
+			);
+			path = coupePizzaGateau;
+			sourceTree = "<group>";
+		};
+		D1C10C731A134C0400FA948C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1C10C741A134C0400FA948C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1C10C881A134C0400FA948C /* coupePizzaGateauTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1C10C8B1A134C0400FA948C /* coupePizzaGateauTests.swift */,
+				D1C10C891A134C0400FA948C /* Supporting Files */,
+			);
+			path = coupePizzaGateauTests;
+			sourceTree = "<group>";
+		};
+		D1C10C891A134C0400FA948C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1C10C8A1A134C0400FA948C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1C10C6F1A134C0400FA948C /* coupePizzaGateau */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C10C8F1A134C0400FA948C /* Build configuration list for PBXNativeTarget "coupePizzaGateau" */;
+			buildPhases = (
+				D1C10C6C1A134C0400FA948C /* Sources */,
+				D1C10C6D1A134C0400FA948C /* Frameworks */,
+				D1C10C6E1A134C0400FA948C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coupePizzaGateau;
+			productName = coupePizzaGateau;
+			productReference = D1C10C701A134C0400FA948C /* coupePizzaGateau.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1C10C841A134C0400FA948C /* coupePizzaGateauTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C10C921A134C0400FA948C /* Build configuration list for PBXNativeTarget "coupePizzaGateauTests" */;
+			buildPhases = (
+				D1C10C811A134C0400FA948C /* Sources */,
+				D1C10C821A134C0400FA948C /* Frameworks */,
+				D1C10C831A134C0400FA948C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C10C871A134C0400FA948C /* PBXTargetDependency */,
+			);
+			name = coupePizzaGateauTests;
+			productName = coupePizzaGateauTests;
+			productReference = D1C10C851A134C0400FA948C /* coupePizzaGateauTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1C10C681A134C0300FA948C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = fenyouse;
+				TargetAttributes = {
+					D1C10C6F1A134C0400FA948C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D1C10C841A134C0400FA948C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D1C10C6F1A134C0400FA948C;
+					};
+				};
+			};
+			buildConfigurationList = D1C10C6B1A134C0300FA948C /* Build configuration list for PBXProject "coupePizzaGateau" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1C10C671A134C0300FA948C;
+			productRefGroup = D1C10C711A134C0400FA948C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1C10C6F1A134C0400FA948C /* coupePizzaGateau */,
+				D1C10C841A134C0400FA948C /* coupePizzaGateauTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1C10C6E1A134C0400FA948C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C10C7B1A134C0400FA948C /* Main.storyboard in Resources */,
+				D1C10C801A134C0400FA948C /* LaunchScreen.xib in Resources */,
+				D1C10C7D1A134C0400FA948C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C10C831A134C0400FA948C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1C10C6C1A134C0400FA948C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C10C781A134C0400FA948C /* ViewController.swift in Sources */,
+				D1C10C761A134C0400FA948C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C10C811A134C0400FA948C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C10C8C1A134C0400FA948C /* coupePizzaGateauTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1C10C871A134C0400FA948C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C10C6F1A134C0400FA948C /* coupePizzaGateau */;
+			targetProxy = D1C10C861A134C0400FA948C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1C10C791A134C0400FA948C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C10C7A1A134C0400FA948C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1C10C7E1A134C0400FA948C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C10C7F1A134C0400FA948C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1C10C8D1A134C0400FA948C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1C10C8E1A134C0400FA948C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1C10C901A134C0400FA948C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = coupePizzaGateau/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1C10C911A134C0400FA948C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = coupePizzaGateau/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D1C10C931A134C0400FA948C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = coupePizzaGateauTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coupePizzaGateau.app/coupePizzaGateau";
+			};
+			name = Debug;
+		};
+		D1C10C941A134C0400FA948C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = coupePizzaGateauTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coupePizzaGateau.app/coupePizzaGateau";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1C10C6B1A134C0300FA948C /* Build configuration list for PBXProject "coupePizzaGateau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C10C8D1A134C0400FA948C /* Debug */,
+				D1C10C8E1A134C0400FA948C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C10C8F1A134C0400FA948C /* Build configuration list for PBXNativeTarget "coupePizzaGateau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C10C901A134C0400FA948C /* Debug */,
+				D1C10C911A134C0400FA948C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1C10C921A134C0400FA948C /* Build configuration list for PBXNativeTarget "coupePizzaGateauTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C10C931A134C0400FA948C /* Debug */,
+				D1C10C941A134C0400FA948C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1C10C681A134C0300FA948C /* Project object */;
+}
