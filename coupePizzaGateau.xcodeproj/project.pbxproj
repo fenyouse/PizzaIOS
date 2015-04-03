@@ -7,35 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D11430251A83B7BD00DE3559 /* DecoupeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11430241A83B7BD00DE3559 /* DecoupeViewController.swift */; };
+		D129DBBD1ACE8FF600D949AA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D129DBB71ACE8FF600D949AA /* Bolts.framework */; };
+		D129DBBE1ACE8FF600D949AA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D129DBB81ACE8FF600D949AA /* Parse.framework */; };
+		D129DBBF1ACE8FF600D949AA /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D129DBB91ACE8FF600D949AA /* ParseCrashReporting.framework */; };
+		D129DBC01ACE8FF600D949AA /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D129DBBA1ACE8FF600D949AA /* ParseFacebookUtils.framework */; };
+		D129DBC11ACE8FF600D949AA /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D129DBBB1ACE8FF600D949AA /* ParseFacebookUtilsV4.framework */; };
+		D129DBC21ACE8FF600D949AA /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D129DBBC1ACE8FF600D949AA /* ParseUI.framework */; };
+		D170C96D1A82624D00C0ED53 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D170C96C1A82624D00C0ED53 /* CoreLocation.framework */; };
+		D181C0A31AC2A6AF003D5A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D181C0A21AC2A6AF003D5A2E /* Main.storyboard */; };
 		D1C10C761A134C0400FA948C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C10C751A134C0400FA948C /* AppDelegate.swift */; };
-		D1C10C781A134C0400FA948C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C10C771A134C0400FA948C /* ViewController.swift */; };
-		D1C10C7B1A134C0400FA948C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C10C791A134C0400FA948C /* Main.storyboard */; };
 		D1C10C7D1A134C0400FA948C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C10C7C1A134C0400FA948C /* Images.xcassets */; };
 		D1C10C801A134C0400FA948C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1C10C7E1A134C0400FA948C /* LaunchScreen.xib */; };
-		D1C10C8C1A134C0400FA948C /* coupePizzaGateauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C10C8B1A134C0400FA948C /* coupePizzaGateauTests.swift */; };
+		D1E2A4711A8211490054FAD5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2A4701A8211490054FAD5 /* MapViewController.swift */; };
+		D1E2A4731A8212AD0054FAD5 /* RecetteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2A4721A8212AD0054FAD5 /* RecetteViewController.swift */; };
+		D1F323671AA458470009E2B2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F323661AA458470009E2B2 /* AudioToolbox.framework */; };
+		D1F323691AA458510009E2B2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F323681AA458510009E2B2 /* CFNetwork.framework */; };
+		D1F3236B1AA4585F0009E2B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F3236A1AA4585F0009E2B2 /* CoreGraphics.framework */; };
+		D1F3236D1AA458750009E2B2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F3236C1AA458750009E2B2 /* MobileCoreServices.framework */; };
+		D1F3236F1AA4587F0009E2B2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F3236E1AA4587F0009E2B2 /* QuartzCore.framework */; };
+		D1F323711AA4588B0009E2B2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F323701AA4588B0009E2B2 /* Security.framework */; };
+		D1F323731AA458980009E2B2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F323721AA458980009E2B2 /* StoreKit.framework */; };
+		D1F323751AA458AC0009E2B2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F323741AA458AC0009E2B2 /* SystemConfiguration.framework */; };
+		D1F323771AA458C00009E2B2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F323761AA458C00009E2B2 /* libz.dylib */; };
+		D1F323791AA458FE0009E2B2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F323781AA458FE0009E2B2 /* libsqlite3.dylib */; };
+		D1F3237C1AA45D030009E2B2 /* testDataCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F3237B1AA45D030009E2B2 /* testDataCustom.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D1C10C861A134C0400FA948C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D1C10C681A134C0300FA948C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D1C10C6F1A134C0400FA948C;
-			remoteInfo = coupePizzaGateau;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		D11430241A83B7BD00DE3559 /* DecoupeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoupeViewController.swift; sourceTree = "<group>"; };
+		D129DBB71ACE8FF600D949AA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D129DBB81ACE8FF600D949AA /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		D129DBB91ACE8FF600D949AA /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		D129DBBA1ACE8FF600D949AA /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		D129DBBB1ACE8FF600D949AA /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		D129DBBC1ACE8FF600D949AA /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		D170C96C1A82624D00C0ED53 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D181C0A21AC2A6AF003D5A2E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D1C10C701A134C0400FA948C /* coupePizzaGateau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coupePizzaGateau.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C10C741A134C0400FA948C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1C10C751A134C0400FA948C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1C10C771A134C0400FA948C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D1C10C7A1A134C0400FA948C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1C10C7C1A134C0400FA948C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1C10C7F1A134C0400FA948C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D1C10C851A134C0400FA948C /* coupePizzaGateauTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coupePizzaGateauTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1C10C8A1A134C0400FA948C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1C10C8B1A134C0400FA948C /* coupePizzaGateauTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coupePizzaGateauTests.swift; sourceTree = "<group>"; };
+		D1E2A4701A8211490054FAD5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D1E2A4721A8212AD0054FAD5 /* RecetteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecetteViewController.swift; sourceTree = "<group>"; };
+		D1F323661AA458470009E2B2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D1F323681AA458510009E2B2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D1F3236A1AA4585F0009E2B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1F3236C1AA458750009E2B2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D1F3236E1AA4587F0009E2B2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D1F323701AA4588B0009E2B2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D1F323721AA458980009E2B2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D1F323741AA458AC0009E2B2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D1F323761AA458C00009E2B2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D1F323781AA458FE0009E2B2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D1F3237A1AA45D020009E2B2 /* coupePizzaGateau-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coupePizzaGateau-Bridging-Header.h"; sourceTree = "<group>"; };
+		D1F3237B1AA45D030009E2B2 /* testDataCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testDataCustom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,24 +70,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1C10C821A134C0400FA948C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D1F323791AA458FE0009E2B2 /* libsqlite3.dylib in Frameworks */,
+				D1F323771AA458C00009E2B2 /* libz.dylib in Frameworks */,
+				D1F323751AA458AC0009E2B2 /* SystemConfiguration.framework in Frameworks */,
+				D129DBBD1ACE8FF600D949AA /* Bolts.framework in Frameworks */,
+				D1F323731AA458980009E2B2 /* StoreKit.framework in Frameworks */,
+				D129DBBF1ACE8FF600D949AA /* ParseCrashReporting.framework in Frameworks */,
+				D1F323711AA4588B0009E2B2 /* Security.framework in Frameworks */,
+				D129DBBE1ACE8FF600D949AA /* Parse.framework in Frameworks */,
+				D129DBC01ACE8FF600D949AA /* ParseFacebookUtils.framework in Frameworks */,
+				D129DBC21ACE8FF600D949AA /* ParseUI.framework in Frameworks */,
+				D1F3236F1AA4587F0009E2B2 /* QuartzCore.framework in Frameworks */,
+				D129DBC11ACE8FF600D949AA /* ParseFacebookUtilsV4.framework in Frameworks */,
+				D1F3236D1AA458750009E2B2 /* MobileCoreServices.framework in Frameworks */,
+				D1F3236B1AA4585F0009E2B2 /* CoreGraphics.framework in Frameworks */,
+				D1F323691AA458510009E2B2 /* CFNetwork.framework in Frameworks */,
+				D1F323671AA458470009E2B2 /* AudioToolbox.framework in Frameworks */,
+				D170C96D1A82624D00C0ED53 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D129DBB61ACE8FF600D949AA /* parse-library-1.7.1 */ = {
+			isa = PBXGroup;
+			children = (
+				D129DBB71ACE8FF600D949AA /* Bolts.framework */,
+				D129DBB81ACE8FF600D949AA /* Parse.framework */,
+				D129DBB91ACE8FF600D949AA /* ParseCrashReporting.framework */,
+				D129DBBA1ACE8FF600D949AA /* ParseFacebookUtils.framework */,
+				D129DBBB1ACE8FF600D949AA /* ParseFacebookUtilsV4.framework */,
+				D129DBBC1ACE8FF600D949AA /* ParseUI.framework */,
+			);
+			name = "parse-library-1.7.1";
+			path = "Framework/parse-library-1.7.1";
+			sourceTree = SOURCE_ROOT;
+		};
 		D1C10C671A134C0300FA948C = {
 			isa = PBXGroup;
 			children = (
+				D1F323651AA457640009E2B2 /* framework */,
 				D1C10C721A134C0400FA948C /* coupePizzaGateau */,
-				D1C10C881A134C0400FA948C /* coupePizzaGateauTests */,
 				D1C10C711A134C0400FA948C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				D1C10C701A134C0400FA948C /* coupePizzaGateau.app */,
-				D1C10C851A134C0400FA948C /* coupePizzaGateauTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,11 +128,15 @@
 			isa = PBXGroup;
 			children = (
 				D1C10C751A134C0400FA948C /* AppDelegate.swift */,
-				D1C10C771A134C0400FA948C /* ViewController.swift */,
-				D1C10C791A134C0400FA948C /* Main.storyboard */,
+				D1F3237B1AA45D030009E2B2 /* testDataCustom.m */,
+				D11430241A83B7BD00DE3559 /* DecoupeViewController.swift */,
+				D1E2A4721A8212AD0054FAD5 /* RecetteViewController.swift */,
+				D1E2A4701A8211490054FAD5 /* MapViewController.swift */,
+				D181C0A21AC2A6AF003D5A2E /* Main.storyboard */,
 				D1C10C7C1A134C0400FA948C /* Images.xcassets */,
 				D1C10C7E1A134C0400FA948C /* LaunchScreen.xib */,
 				D1C10C731A134C0400FA948C /* Supporting Files */,
+				D1F3237A1AA45D020009E2B2 /* coupePizzaGateau-Bridging-Header.h */,
 			);
 			path = coupePizzaGateau;
 			sourceTree = "<group>";
@@ -95,22 +149,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D1C10C881A134C0400FA948C /* coupePizzaGateauTests */ = {
+		D1F323651AA457640009E2B2 /* framework */ = {
 			isa = PBXGroup;
 			children = (
-				D1C10C8B1A134C0400FA948C /* coupePizzaGateauTests.swift */,
-				D1C10C891A134C0400FA948C /* Supporting Files */,
+				D129DBB61ACE8FF600D949AA /* parse-library-1.7.1 */,
+				D1F323781AA458FE0009E2B2 /* libsqlite3.dylib */,
+				D1F323761AA458C00009E2B2 /* libz.dylib */,
+				D1F323741AA458AC0009E2B2 /* SystemConfiguration.framework */,
+				D1F323721AA458980009E2B2 /* StoreKit.framework */,
+				D1F323701AA4588B0009E2B2 /* Security.framework */,
+				D1F3236E1AA4587F0009E2B2 /* QuartzCore.framework */,
+				D1F3236C1AA458750009E2B2 /* MobileCoreServices.framework */,
+				D1F3236A1AA4585F0009E2B2 /* CoreGraphics.framework */,
+				D1F323681AA458510009E2B2 /* CFNetwork.framework */,
+				D1F323661AA458470009E2B2 /* AudioToolbox.framework */,
+				D170C96C1A82624D00C0ED53 /* CoreLocation.framework */,
 			);
-			path = coupePizzaGateauTests;
-			sourceTree = "<group>";
-		};
-		D1C10C891A134C0400FA948C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D1C10C8A1A134C0400FA948C /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
+			name = framework;
+			path = /Volumes/DATA/CoursIngesup/AppleLab/coupePizzaGateau/coupePizzaGateau;
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -132,24 +189,6 @@
 			productReference = D1C10C701A134C0400FA948C /* coupePizzaGateau.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D1C10C841A134C0400FA948C /* coupePizzaGateauTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D1C10C921A134C0400FA948C /* Build configuration list for PBXNativeTarget "coupePizzaGateauTests" */;
-			buildPhases = (
-				D1C10C811A134C0400FA948C /* Sources */,
-				D1C10C821A134C0400FA948C /* Frameworks */,
-				D1C10C831A134C0400FA948C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D1C10C871A134C0400FA948C /* PBXTargetDependency */,
-			);
-			name = coupePizzaGateauTests;
-			productName = coupePizzaGateauTests;
-			productReference = D1C10C851A134C0400FA948C /* coupePizzaGateauTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +200,6 @@
 				TargetAttributes = {
 					D1C10C6F1A134C0400FA948C = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					D1C10C841A134C0400FA948C = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = D1C10C6F1A134C0400FA948C;
 					};
 				};
 			};
@@ -182,7 +217,6 @@
 			projectRoot = "";
 			targets = (
 				D1C10C6F1A134C0400FA948C /* coupePizzaGateau */,
-				D1C10C841A134C0400FA948C /* coupePizzaGateauTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,16 +226,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1C10C7B1A134C0400FA948C /* Main.storyboard in Resources */,
+				D181C0A31AC2A6AF003D5A2E /* Main.storyboard in Resources */,
 				D1C10C801A134C0400FA948C /* LaunchScreen.xib in Resources */,
 				D1C10C7D1A134C0400FA948C /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1C10C831A134C0400FA948C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,38 +239,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1C10C781A134C0400FA948C /* ViewController.swift in Sources */,
+				D1E2A4731A8212AD0054FAD5 /* RecetteViewController.swift in Sources */,
+				D11430251A83B7BD00DE3559 /* DecoupeViewController.swift in Sources */,
 				D1C10C761A134C0400FA948C /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1C10C811A134C0400FA948C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1C10C8C1A134C0400FA948C /* coupePizzaGateauTests.swift in Sources */,
+				D1F3237C1AA45D030009E2B2 /* testDataCustom.m in Sources */,
+				D1E2A4711A8211490054FAD5 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		D1C10C871A134C0400FA948C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D1C10C6F1A134C0400FA948C /* coupePizzaGateau */;
-			targetProxy = D1C10C861A134C0400FA948C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		D1C10C791A134C0400FA948C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1C10C7A1A134C0400FA948C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D1C10C7E1A134C0400FA948C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -338,9 +344,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/fenyouse/Desktop/parse-library-1.6.3",
+					"$(PROJECT_DIR)/Framework/parse-library-1.7.1",
+				);
 				INFOPLIST_FILE = coupePizzaGateau/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "coupePizzaGateau/coupePizzaGateau-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,43 +362,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/fenyouse/Desktop/parse-library-1.6.3",
+					"$(PROJECT_DIR)/Framework/parse-library-1.7.1",
+				);
 				INFOPLIST_FILE = coupePizzaGateau/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D1C10C931A134C0400FA948C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = coupePizzaGateauTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coupePizzaGateau.app/coupePizzaGateau";
-			};
-			name = Debug;
-		};
-		D1C10C941A134C0400FA948C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = coupePizzaGateauTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coupePizzaGateau.app/coupePizzaGateau";
+				SWIFT_OBJC_BRIDGING_HEADER = "coupePizzaGateau/coupePizzaGateau-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,14 +394,7 @@
 				D1C10C911A134C0400FA948C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D1C10C921A134C0400FA948C /* Build configuration list for PBXNativeTarget "coupePizzaGateauTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D1C10C931A134C0400FA948C /* Debug */,
-				D1C10C941A134C0400FA948C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
