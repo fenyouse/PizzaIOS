@@ -20,6 +20,8 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named:"pizza")!)
+        
         //Setup our Location Manager
         manager = CLLocationManager()
         manager.delegate = self

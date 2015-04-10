@@ -19,10 +19,13 @@ class RecetteViewController: UIViewController, UITableViewDelegate, UITableViewD
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named:"pizza")!)
 
         let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "newPizza:")
         self.navigationItem.rightBarButtonItem = addButton
         self.navigationController?.setNavigationBarHidden(false, animated: true)
+        
         loadPizza()
 
     }
@@ -51,8 +54,6 @@ class RecetteViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     
-    
-    
     func newPizza(sender: AnyObject) {
         
         let alert = UIAlertController(title: "New Pizza", message: nil, preferredStyle: .Alert)
@@ -69,7 +70,7 @@ class RecetteViewController: UIViewController, UITableViewDelegate, UITableViewD
             Pizza["Name"] = self.alertTextField!.text
 
             
-            // Save the context.
+            // Save the object.
             Pizza.saveInBackgroundWithBlock {
                 (success: Bool, error: NSError!) -> Void in
                 if (success) {
@@ -88,19 +89,18 @@ class RecetteViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
    
-
-
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
         return 1
     }
     
+    
+    // Return the number of rows in the section.
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // Return the number of rows in the section.
         return Pizzas.count
     }
     
-    
+    // affectation cell
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
         
@@ -118,13 +118,6 @@ class RecetteViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     
-    
-    
-    
-    
-    
-    
-    
     // Override to support editing the table view.
     func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
@@ -140,14 +133,5 @@ class RecetteViewController: UIViewController, UITableViewDelegate, UITableViewD
         }
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+   
 }

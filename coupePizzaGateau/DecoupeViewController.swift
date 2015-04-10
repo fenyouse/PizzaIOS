@@ -25,7 +25,8 @@ class DecoupeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.whiteColor()
+        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named:"pizza")!)
         
         NomImage = "1"
         NomImage = ValueMangeur.text

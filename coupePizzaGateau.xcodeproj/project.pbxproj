@@ -14,6 +14,7 @@
 		D129DBC01ACE8FF600D949AA /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D129DBBA1ACE8FF600D949AA /* ParseFacebookUtils.framework */; };
 		D129DBC11ACE8FF600D949AA /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D129DBBB1ACE8FF600D949AA /* ParseFacebookUtilsV4.framework */; };
 		D129DBC21ACE8FF600D949AA /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D129DBBC1ACE8FF600D949AA /* ParseUI.framework */; };
+		D16E0CC31AD50C4F005FE350 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16E0CC21AD50C4F005FE350 /* MenuViewController.swift */; };
 		D170C96D1A82624D00C0ED53 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D170C96C1A82624D00C0ED53 /* CoreLocation.framework */; };
 		D181C0A31AC2A6AF003D5A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D181C0A21AC2A6AF003D5A2E /* Main.storyboard */; };
 		D1C10C761A134C0400FA948C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C10C751A134C0400FA948C /* AppDelegate.swift */; };
@@ -32,6 +33,7 @@
 		D1F323771AA458C00009E2B2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F323761AA458C00009E2B2 /* libz.dylib */; };
 		D1F323791AA458FE0009E2B2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F323781AA458FE0009E2B2 /* libsqlite3.dylib */; };
 		D1F3237C1AA45D030009E2B2 /* testDataCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F3237B1AA45D030009E2B2 /* testDataCustom.m */; };
+		D1FEECDB1AD52FCF0021F899 /* RecetteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FEECDA1AD52FCF0021F899 /* RecetteDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,7 @@
 		D129DBBA1ACE8FF600D949AA /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		D129DBBB1ACE8FF600D949AA /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		D129DBBC1ACE8FF600D949AA /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		D16E0CC21AD50C4F005FE350 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		D170C96C1A82624D00C0ED53 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D181C0A21AC2A6AF003D5A2E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D1C10C701A134C0400FA948C /* coupePizzaGateau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coupePizzaGateau.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +66,7 @@
 		D1F323781AA458FE0009E2B2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D1F3237A1AA45D020009E2B2 /* coupePizzaGateau-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coupePizzaGateau-Bridging-Header.h"; sourceTree = "<group>"; };
 		D1F3237B1AA45D030009E2B2 /* testDataCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testDataCustom.m; sourceTree = "<group>"; };
+		D1FEECDA1AD52FCF0021F899 /* RecetteDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecetteDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +134,9 @@
 				D1C10C751A134C0400FA948C /* AppDelegate.swift */,
 				D1F3237B1AA45D030009E2B2 /* testDataCustom.m */,
 				D11430241A83B7BD00DE3559 /* DecoupeViewController.swift */,
+				D16E0CC21AD50C4F005FE350 /* MenuViewController.swift */,
 				D1E2A4721A8212AD0054FAD5 /* RecetteViewController.swift */,
+				D1FEECDA1AD52FCF0021F899 /* RecetteDetailsViewController.swift */,
 				D1E2A4701A8211490054FAD5 /* MapViewController.swift */,
 				D181C0A21AC2A6AF003D5A2E /* Main.storyboard */,
 				D1C10C7C1A134C0400FA948C /* Images.xcassets */,
@@ -240,7 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E2A4731A8212AD0054FAD5 /* RecetteViewController.swift in Sources */,
+				D16E0CC31AD50C4F005FE350 /* MenuViewController.swift in Sources */,
 				D11430251A83B7BD00DE3559 /* DecoupeViewController.swift in Sources */,
+				D1FEECDB1AD52FCF0021F899 /* RecetteDetailsViewController.swift in Sources */,
 				D1C10C761A134C0400FA948C /* AppDelegate.swift in Sources */,
 				D1F3237C1AA45D030009E2B2 /* testDataCustom.m in Sources */,
 				D1E2A4711A8211490054FAD5 /* MapViewController.swift in Sources */,
