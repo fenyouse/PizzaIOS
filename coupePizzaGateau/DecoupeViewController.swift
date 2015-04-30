@@ -31,7 +31,7 @@ class DecoupeViewController: UIViewController {
         NomImage = "1"
         NomImage = ValueMangeur.text
         
-        Image.image=UIImage(named: NomImage)
+        Image.image=UIImage(named: NomImage as String)
         
     }
     
@@ -47,7 +47,7 @@ class DecoupeViewController: UIViewController {
         ValueMangeur.text = Int(sender.value).description
         NomImage = ValueMangeur.text
         
-        Image.image=UIImage(named: NomImage)
+        Image.image=UIImage(named: NomImage as String)
         
     }
     

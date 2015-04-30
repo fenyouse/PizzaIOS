@@ -10,11 +10,12 @@ import UIKit
 
 class RecetteViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var alertTextField:UITextField?
     
     @IBOutlet weak var tableView: UITableView!
     
-    var Pizzas:[String] = []
+    var Pizzas:[PFObject] = []
+    
+    let blogSegueIdentifier = "ShowPizzaRecette"
    
 
     override func viewDidLoad() {
@@ -22,10 +23,6 @@ class RecetteViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         self.view.backgroundColor = UIColor(patternImage: UIImage(named:"pizza")!)
 
-        let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "newPizza:")
-        self.navigationItem.rightBarButtonItem = addButton
-        self.navigationController?.setNavigationBarHidden(false, animated: true)
-        
         loadPizza()
 
     }
@@ -35,6 +32,8 @@ class RecetteViewController: UIViewController, UITableViewDelegate, UITableViewD
         // Dispose of any resources that can be recreated.
     }
     
+    
+   
 
     
     func loadPizza() {
@@ -44,48 +43,27 @@ class RecetteViewController: UIViewController, UITableViewDelegate, UITableViewD
      
         query.findObjectsInBackgroundWithBlock { (results, error) -> Void in
             
-            for object in results {
-                var Pizza = object["Name"] as String
-                self.Pizzas.append(Pizza)
+            if results != nil {
+                for object in results! {
+                    self.Pizzas.append(object as! PFObject)
+                }
+                println(self.Pizzas)
+                self.tableView.reloadData()
             }
-            self.tableView.reloadData()
         }
         
     }
     
-    
-    func newPizza(sender: AnyObject) {
-        
-        let alert = UIAlertController(title: "New Pizza", message: nil, preferredStyle: .Alert)
-        alert.addTextFieldWithConfigurationHandler { (textField) -> Void in
-            self.alertTextField = textField
-        }
-        
-        alert.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
-        
-        alert.addAction(UIAlertAction(title: "Add", style: .Default, handler: { (action) -> Void in
-            
-            
-            var Pizza = PFObject(className:"Pizza")
-            Pizza["Name"] = self.alertTextField!.text
-
-            
-            // Save the object.
-            Pizza.saveInBackgroundWithBlock {
-                (success: Bool, error: NSError!) -> Void in
-                if (success) {
-                    // The object has been saved.
-                } else {
-                    // There was a problem, check error.description
-                }
+    //New
+    // MARK: - Navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == blogSegueIdentifier {
+            if let destination = segue.destinationViewController as? RecetteDetailsViewController {
+                if let PizzaIndex = tableView.indexPathForSelectedRow()?.row {
+                    destination.pizza = Pizzas[PizzaIndex]
+                 }
             }
-            
-            self.loadPizza()
-            // recharger fake 
-            // self.tableView.reloadData()
-            
-        }))
-        self.presentViewController(alert, animated: true, completion: nil)
+        }
     }
     
    
@@ -102,36 +80,16 @@ class RecetteViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     // affectation cell
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
         
         let Pizza = Pizzas[indexPath.row]
-        cell.textLabel?.text = Pizza
+        cell.textLabel?.text = Pizza["Name"] as? String
         
         return cell
     }
     
     
-    // Override to support conditional editing of the table view.
-    func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the specified item to be editable.
-        return true
-    }
     
-    
-    // Override to support editing the table view.
-    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            
-            let Pizza = Pizzas[indexPath.row]
-            
-           
-            Pizzas.removeAtIndex(find(Pizzas, Pizza)!)
-            
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-            
-        }
-    }
     
    
 }

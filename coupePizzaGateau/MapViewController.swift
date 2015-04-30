@@ -37,7 +37,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
     }
     
     func locationManager(manager:CLLocationManager, didUpdateLocations locations:[AnyObject]) {
-        myLocations.append(locations[0] as CLLocation)
+        myLocations.append(locations[0] as! CLLocation)
         let spanX = 0.007
         let spanY = 0.007
         var newRegion = MKCoordinateRegion(center: TheMap.userLocation.coordinate, span: MKCoordinateSpanMake(spanX, spanY))
